@@ -1,5 +1,5 @@
 
-# Calculadora em JavaScipt
+# Calculadora em JavaScript
 
 Fiz essa calculador para testar meus conhecimentos sobre o que aprendi até agora com JavaScipt, (E preciso atualizar minha trilha).
 
