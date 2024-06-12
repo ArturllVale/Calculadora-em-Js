@@ -1,7 +1,7 @@
 
 # Calculadora em JavaScript
 
-Fiz essa calculador para testar meus conhecimentos sobre o que aprendi até agora com JavaScipt, (E preciso atualizar minha trilha).
+Fiz essa calculador para testar meus conhecimentos sobre o que aprendi até agora com JavaScript, (E preciso atualizar minha trilha).
 
 Confesso que pedi ajuda ao ChatGPT para a função de porcentagem e de permitir apenas números no display.
 
