@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Calculadora em JavaScript">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Artur Vale">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="calculadora">
+                <input type="text" class="display" id="display" placeholder="0"></input>
+                <!-- Teclado-->
+                <table>
+                    <thead>
+                        <tr>
+                            <th onclick="limpar()">AC</th>
+                            <th class="raiz">√</th>
+                            <th class="porcent">%</th>
+                            <th class="dividir">÷</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="numeros">7</td>
+                            <td class="numeros">8</td>
+                            <td class="numeros">9</td>
+                            <td class="multiplicar">x</td>
+                        </tr>
+                        <tr>
+                            <td class="numeros">4</td>
+                            <td class="numeros">5</td>
+                            <td class="numeros">6</td>
+                            <td class="numeros">-</td>
+                        </tr>
+                        <tr>
+                            <td class="numeros">1</td>
+                            <td class="numeros">2</td>
+                            <td class="numeros">3</td>
+                            <td rowspan="2" class="destaque numeros" onclick="somar()">+</td>
+                        </tr>
+                        <tr>
+                            <td class="numeros">0</td>
+                            <td class="numeros">.</td>
+                            <td onclick="resultado()" class="resultado">=</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
